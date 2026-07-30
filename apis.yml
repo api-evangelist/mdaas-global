@@ -1,7 +1,28 @@
 aid: mdaas-global
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mdaas-global.png
 name: MDaaS Global
-description: MDaaS Global is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MDaaS Global builds a modern, technology-powered healthcare network delivering
+  affordable diagnostic and imaging services across underserved communities in
+  Africa. Through its BeaconHealth Diagnostics clinics and BeaconHealth Affiliate
+  Network — supported by the BeaconOS facility operating system and the Medverse
+  sample-logistics platform — MDaaS has served 650,000+ patients across 25+
+  African cities with 1,300+ clinical partners. Headquartered in Lekki, Lagos,
+  Nigeria and backed by Techstars, the company also provides public-health data
+  and insights services. This profile was surfaced as a Techstars portfolio
+  company and enriched by the API Evangelist pipeline; MDaaS publishes no public
+  developer API, SDK, or documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/mdaas-global/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Diagnostics
+- Medical Imaging
+- Africa
+- Health Tech
+- Nigeria
+- Public Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,14 @@ maintainers:
 common:
 - type: Website
   url: https://mdaas.io/
+- type: Support
+  url: https://mdaas.io/get-in-touch
+- type: Blog
+  url: https://mdaas.io/newsroom
+- type: DomainSecurity
+  url: security/mdaas-global-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
