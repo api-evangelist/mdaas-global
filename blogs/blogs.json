@@ -1,0 +1,14 @@
+{
+  "repo": "mdaas-global",
+  "feeds": [
+    {
+      "source": "https://mdaas.io/get-in-touch",
+      "feed_url": "https://mdaas.io/get-in-touch",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
